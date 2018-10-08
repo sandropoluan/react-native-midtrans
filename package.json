@@ -23,7 +23,7 @@
  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/radiegtya/react-native-midtrans"
+    "url": "https://github.com/sandropoluan/react-native-midtrans"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",

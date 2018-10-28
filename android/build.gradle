@@ -2,12 +2,12 @@ apply plugin: "com.android.library"
 
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 25
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
 
@@ -17,6 +17,7 @@ repositories {
     jcenter()
     // Add the midtrans repository into the list of repositories
     maven { url "http://dl.bintray.com/pt-midtrans/maven" }
+    maven { url "https://jitpack.io" }
 }
 dependencies {
     // For using the Veritrans Sandbox

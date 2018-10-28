@@ -20,17 +20,16 @@ repositories {
 }
 dependencies {
     // For using the Veritrans Sandbox
-    compile 'com.midtrans:corekit:1.4.1-SANDBOX'
-//     For using the Veritrans Production
-//    compile 'com.midtrans:corekit:1.4.2'
-    // For using the Veritrans Sandbox
-    compile 'com.midtrans:uikit:1.4.1-SANDBOX'
-    // For using the Veritrans Production
-//    compile 'com.midtrans:uikit:1.4.2'
-    // Sandbox
-//    compile 'com.midtrans:widgets:1.5.1-SANDBOX'
-    // Production
-//    compile 'com.midtrans:widgets:1.5.1'
-//    testCompile 'junit:junit:4.12'
+    compile 'com.midtrans:corekit:1.15.0-SANDBOX'
+
+    // For using the Veritrans Productio
+    // compile 'com.midtrans:corekit:1.15.0'
+
+    // For using the Midtrans Sandbox
+    compile 'com.midtrans:uikit:1.15.0-SANDBOX' // change the number to the latest version
+
+    // For using the Midtrans Production
+    //compile 'com.midtrans:uikit:1.15.0' // change the number to the latest version
+    
     compile "com.facebook.react:react-native:+"  // From node_modules
 }
